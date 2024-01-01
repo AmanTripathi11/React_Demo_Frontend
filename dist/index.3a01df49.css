@@ -1,0 +1,80 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  margin: 10px;
+  display: flex;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.logo {
+  width: 109px;
+}
+
+.card {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 181px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card > img {
+  border-radius: 10px;
+  width: 181px;
+  height: 200px;
+}
+
+.restraunt-list {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.card-shimmer {
+  border-radius: 10px;
+  flex-direction: column;
+  width: 181px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.card-shimmer .img {
+  z-index: 2;
+  background: #57575d;
+  border-radius: 10px;
+  width: 181px;
+  height: 200px;
+}
+
+.card-shimmer .name, .search {
+  background: #57575d;
+  border-radius: 10px;
+  width: 125px;
+  height: 25px;
+  margin: 10px;
+}
+
+.shimmer-div {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimmer {
+  background: #c0c0c8;
+  border-radius: 10px;
+}
+
+.shimmer-search-box {
+  display: flex;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

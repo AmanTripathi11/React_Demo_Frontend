@@ -1,0 +1,90 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+    display: flex;
+    
+
+}
+
+.nav-items > ul >li{
+    padding: 10px;
+}
+
+.logo{
+    width: 109px;
+}
+
+.card{
+    width: 181px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.card > img{
+    width: 181px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+
+.restraunt-list{
+    display: flex;
+    /* margin-right:  10%; */
+    /* margin: 5px; */
+   /* justify-content: center; */
+   
+    
+    flex-wrap: wrap;
+}
+
+
+.card-shimmer{
+    width: 181px;
+    border-radius: 5px;
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card-shimmer .img{
+    background: rgb(87, 87, 93);
+    width: 181px;
+    height: 200px;
+    border-radius: 10px;
+    z-index: 2;
+
+}
+.card-shimmer .name,.search{
+    margin: 10px;
+    background: rgb(87, 87, 93);
+    width: 125px;
+    height: 25px;
+    border-radius: 10px;
+}
+.shimmer-div{
+   
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.shimmer{
+    border-radius: 10px;
+    background: rgb(192, 192, 200);
+}
+.shimmer-search-box{
+    display: flex;
+
+}
